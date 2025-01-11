@@ -9,4 +9,4 @@ Python 3.8+
 
 No other requirements for this code.
 
-If you have any query of suggestion, please reach me out. Thank You!!
+If you have any query of suggestion, please reach me out. Thank You!
