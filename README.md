@@ -4,6 +4,7 @@ This a basic python code for Tic-Tac-Toe playing against computer. There is no g
 Basics -
 I have tried to create this game using just the basic python commands, to reinforce my knowledge that I have been gaining of python. The game requires no extra tools or libraries and can be understood with beginner level's knowledge.
 
+
 Requirements -
 Python 3.8+
 
