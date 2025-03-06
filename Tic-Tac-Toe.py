@@ -171,4 +171,3 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
-#.
