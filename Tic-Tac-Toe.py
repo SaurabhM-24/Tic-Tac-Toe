@@ -165,7 +165,6 @@ while run == True:
                 run = False
             break
                
-
     #for - else statement in case no one wins the game and no break is encountered
     else:
         print('OH! no one won the game!')
