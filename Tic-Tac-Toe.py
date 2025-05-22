@@ -1,8 +1,6 @@
 #importing choice function from random module for computer moves
 from random import choice
 
-
-
 #function for getting the position with the help of input
 def position(row, col, symbl, D):
     
