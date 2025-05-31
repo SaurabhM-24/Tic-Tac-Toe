@@ -12,6 +12,7 @@ def position(row, col, symbl, D):
         elif col == '3' and D['TR'] == ' ':
             D['TR'] = symbl
         else:
+            
             if symbl == P_symbl:
                 user = 'player'
             elif symbl == comp_symbl:
