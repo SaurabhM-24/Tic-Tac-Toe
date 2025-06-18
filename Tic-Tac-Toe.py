@@ -4,6 +4,7 @@ from random import choice
 #function for getting the position with the help of input
 def position(row, col, symbl, D):
     
+    
     if row.upper() == 'A':
         if col == '1' and D['TL'] == ' ':
             D['TL'] = symbl
