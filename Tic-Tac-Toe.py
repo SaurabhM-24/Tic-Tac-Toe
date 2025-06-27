@@ -50,7 +50,6 @@ def position(row, col, symbl, D):
 
     return D
 
-
 #function for taking the inputs from the user and using position function defined above
 def player():
     print()
