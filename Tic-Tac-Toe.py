@@ -1,7 +1,6 @@
 #importing choice function from random module for computer moves
 from random import choice
 
-
 #function for getting the position with the help of input
 def position(row, col, symbl, D): 
     if row.upper() == 'A':
@@ -10,8 +9,7 @@ def position(row, col, symbl, D):
         elif col == '2' and D['TM'] == ' ':
             D['TM'] = symbl
         elif col == '3' and D['TR'] == ' ':
-            D['TR'] = symbl
-            
+            D['TR'] = symbl            
         else:
             if symbl == P_symbl:
                 user = 'player'
