@@ -54,6 +54,8 @@ def position(row, col, symbl, D):
 #function for taking the inputs from the user and using position function defined above
 def player():
     print()
+
+    
     col = input('Enter the column number [1/2/3] : ')
     print()
     row = input('Enter the row name [A/B/C] : ')
@@ -171,5 +173,6 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
