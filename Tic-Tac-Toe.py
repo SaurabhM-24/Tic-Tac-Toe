@@ -42,6 +42,7 @@ def position(row, col, symbl, D):
             D['BM'] = symbl
         elif col == '3' and D['BR'] == ' ':
             D['BR'] = symbl
+            
         else:
             if symbl == P_symbl:
                 user = 'player'
@@ -173,6 +174,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
