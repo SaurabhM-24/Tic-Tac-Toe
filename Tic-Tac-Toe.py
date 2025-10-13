@@ -16,6 +16,7 @@ def position(row, col, symbl, D):
                 user = 'player'
             elif symbl == comp_symbl:
                 user = 'comp'
+                
             wrong_input(user)           #calling function for wrong input defined below
 
 
@@ -175,6 +176,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
