@@ -159,7 +159,7 @@ while run == True:
            D['TM'] == D['centre'] == D['BM'] == comp_symbl or \
            D['TR'] == D['MR'] == D['BR'] == comp_symbl or \
            D['TL'] == D['centre'] == D['BR'] == comp_symbl or \
-           D['TR'] == D['centre'] == D['BL'] == comp_symbl :
+           D['TR'] == D['centre'] == D['BL'] == comp_symbl:
             print('Sorry! The computer won the game!\n\n')
 
             #input and if statement to ask to replay the game
@@ -176,6 +176,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
