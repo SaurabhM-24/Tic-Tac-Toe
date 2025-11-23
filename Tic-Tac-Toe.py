@@ -63,6 +63,7 @@ def player():
 #function for taking random choices and using it as computer's moves
 def comp():
     comp_col = choice(['1','2','3'])
+    
     comp_row = choice(['A','B','C'])
     position(comp_row, comp_col, comp_symbl, D)
 
@@ -172,6 +173,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
