@@ -71,6 +71,7 @@ def comp():
 def wrong_input(user):
     if user == 'comp':
         comp()
+        
     elif user == 'player':
         print('\nYou entered a location which is already filled or does not \
 exist. Please re-enter your values.')
@@ -173,6 +174,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
