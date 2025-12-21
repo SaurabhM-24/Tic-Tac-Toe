@@ -4,6 +4,7 @@ from random import choice
 #function for getting the position with the help of input
 def position(row, col, symbl, D): 
     if row.upper() == 'A':
+        
         if col == '1' and D['TL'] == ' ':
             D['TL'] = symbl
         elif col == '2' and D['TM'] == ' ':
@@ -174,6 +175,7 @@ while run == True:
         if ask.upper() == 'N':
             print('Thank you for playing this game!')
             run = False
+
 
 
 
